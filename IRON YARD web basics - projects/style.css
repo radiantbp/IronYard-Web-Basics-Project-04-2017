@@ -1,0 +1,150 @@
+body {
+	margin-top: 0;
+	margin-left: 0;
+	background-color: black;
+	font-family: Roboto, sans-serif;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	padding-left: 10px;
+	color: #fb0000;
+}
+
+img {
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+.top-bar, .product-display, .product-description, .related-products, .footer {
+	width: 95%;
+	display: block;
+}
+
+h6 {
+	color: #303030;
+	font-size: 10px;
+	padding-top: 0;
+}
+/*-----------------------------------------*/
+
+.top-bar {
+	background-color: white;
+	margin: 0 auto;
+	border-bottom: 10px solid red;
+	z-index: 9999;
+	padding: 35px;
+	font-size: 14px;
+	font: Roboto, #fb0000;
+}
+
+#shoe-links, #site-links {
+	display: inline;
+}
+
+#shoe-links {
+	font-weight: bold;
+}
+
+#site-links {
+	float: right;
+	font-size: 12px;
+}
+
+/*-------------------------------------*/
+
+.product-display {
+	margin: auto;
+	background: linear-gradient(to right, #fb0000, orange);
+	color: white;
+	padding: 40px 80px;
+}
+
+.product-display > a {
+	font-size: 11px;
+	color: white;
+}
+
+
+#shoe-text {
+	width: 50%;
+	float: right;
+	padding-right: 80px;
+}
+
+/*----------------------*/
+
+.product-description {
+	background-color: white;
+	color: black;
+	padding: 40px 80px; 
+}
+
+#description-bar> ul, #description-bar > p {
+	display:inline;
+	border-bottom: 1px solid red;
+}
+
+#description-bar > ul > li {
+	display: inline;
+}
+
+#description-bar > p {
+	float: right;
+	padding-right: 100px;
+}
+
+.product-description > p {
+	color: #a9a9a9;
+}
+/*-------------------------------*/
+
+.related-products {
+	margin: auto;
+	background: linear-gradient(to right, #fb0000, orange);
+	color: white;
+}
+
+.related-products > h2 {
+	margin: auto;
+	padding: 20px;
+	background-color: #ffb6c1;
+	color: black;
+	text-align: center;
+}
+
+.related-products > ul {
+	margin: auto;
+	display: inline-block;
+	padding:20px 60px;
+}
+
+.related-products > ul > li  {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 0;
+	text-align: left;
+}
+/*--------------------------------*/
+.footer {
+	background-color: white;
+	margin: 0 auto;
+	z-index: 9999;
+	padding: 35px;
+	font-size: 14px;
+	font: Roboto, #fb0000;
+}
+
+#shoe-links, #fine-print {
+	display: inline;
+}
+
+#shoe-links {
+	font-weight: bold;
+}
+
+#fine-print {
+	float: right;
+	font-size: 12px;
+}
