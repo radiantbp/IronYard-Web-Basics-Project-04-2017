@@ -1,9 +1,9 @@
 body {
-	margin-top: 0;
-	margin-left: 0;
-	background-color: black;
+	margin: 0 auto;
+	display: block;
+	background-color: white;
 	font-family: Roboto, sans-serif;
-	width: 100%;
+	z-index: 9999;
 }
 
 a {
@@ -17,11 +17,6 @@ img {
 	vertical-align: middle;
 }
 
-.top-bar, .product-display, .product-description, .related-products, .footer {
-	width: 95%;
-	display: block;
-}
-
 h6 {
 	color: #303030;
 	font-size: 10px;
@@ -30,10 +25,7 @@ h6 {
 /*-----------------------------------------*/
 
 .top-bar {
-	background-color: white;
-	margin: 0 auto;
 	border-bottom: 10px solid red;
-	z-index: 9999;
 	padding: 35px;
 	font-size: 14px;
 	font: Roboto, #fb0000;
@@ -50,15 +42,15 @@ h6 {
 #site-links {
 	float: right;
 	font-size: 12px;
+	padding-top: 5px;
 }
 
 /*-------------------------------------*/
 
 .product-display {
-	margin: auto;
 	background: linear-gradient(to right, #fb0000, orange);
 	color: white;
-	padding: 40px 80px;
+	padding: 40px 40px;
 }
 
 .product-display > a {
@@ -66,48 +58,41 @@ h6 {
 	color: white;
 }
 
-
 #shoe-text {
 	width: 50%;
 	float: right;
-	padding-right: 80px;
+	padding-right: 40px;
 }
 
 /*----------------------*/
 
 .product-description {
-	background-color: white;
 	color: black;
-	padding: 40px 80px; 
+	padding: 25px 40px; 
 }
 
-#description-bar> ul, #description-bar > p {
+#description-bar > ul > li, #description-bar > #reviews {
 	display:inline;
 	border-bottom: 1px solid red;
+	vertical-align: middle;
 }
 
-#description-bar > ul > li {
-	display: inline;
-}
-
-#description-bar > p {
+#description-bar > #reviews {
 	float: right;
-	padding-right: 100px;
 }
 
 .product-description > p {
 	color: #a9a9a9;
 }
+
 /*-------------------------------*/
 
 .related-products {
-	margin: auto;
 	background: linear-gradient(to right, #fb0000, orange);
 	color: white;
 }
 
 .related-products > h2 {
-	margin: auto;
 	padding: 20px;
 	background-color: #ffb6c1;
 	color: black;
@@ -115,7 +100,6 @@ h6 {
 }
 
 .related-products > ul {
-	margin: auto;
 	display: inline-block;
 	padding:20px 60px;
 }
@@ -128,12 +112,8 @@ h6 {
 }
 /*--------------------------------*/
 .footer {
-	background-color: white;
-	margin: 0 auto;
-	z-index: 9999;
 	padding: 35px;
 	font-size: 14px;
-	font: Roboto, #fb0000;
 }
 
 #shoe-links, #fine-print {
@@ -147,4 +127,5 @@ h6 {
 #fine-print {
 	float: right;
 	font-size: 12px;
+	padding-top: 5px;
 }
