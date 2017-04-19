@@ -68,16 +68,16 @@ h6 {
 
 .product-description {
 	color: black;
-	padding: 25px 40px; 
+	padding: 40px 40px; 
 }
 
-#description-bar > ul > li, #description-bar > #reviews {
+#description-bar > ul > li, #description-bar > ul > li.reviews-on-right {
 	display:inline;
 	border-bottom: 1px solid red;
 	vertical-align: middle;
 }
 
-#description-bar > #reviews {
+#description-bar > ul > li.reviews-on-right {
 	float: right;
 }
 
