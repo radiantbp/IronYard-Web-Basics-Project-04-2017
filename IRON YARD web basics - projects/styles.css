@@ -41,6 +41,7 @@ h6 {
 	float: right;
 	font-size: 12px;
 	padding-top: 5px;
+	padding-right: 5px;
 }
 
 /*-------------------------------------*/
@@ -48,7 +49,9 @@ h6 {
 .product-display {
 	background: linear-gradient(to right, #fb0000, orange);
 	color: white;
-	padding: 40px 40px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	padding-left: 100px;
 }
 
 .product-display > a {
@@ -56,10 +59,43 @@ h6 {
 	color: white;
 }
 
-.shoe-text {
+.shoe-text, .shoe-buy {
 	width: 50%;
 	float: right;
 	padding-right: 40px;
+}
+
+.shoe-text > p {
+	border-top: dashed 1px grey;
+	border-bottom: dashed 1px grey;
+}
+
+.shoe-text > p {
+	padding: 20px;
+}
+
+.shoe-buy > p, button, button > p {
+	display: inline;
+	padding-right: 20px;
+}
+
+.shoe-buy > p {
+	font-size: 50px;
+}
+
+button {
+	background-color: white;
+	border-radius: 5px;
+	border-color: white;
+	box-shadow: none;
+}
+
+button > p {
+	color: #ff4500;
+	text-align: center;
+	padding: 40px 20px;
+	font-weight: bold;
+	font-style: Roboto, sans-serif;
 }
 
 /*----------------------*/
@@ -75,7 +111,7 @@ h6 {
 	border-bottom: 1px solid red;
 }
 
-.description-bar > ul > li.reviews-on-right {
+li.reviews-on-right {
 	float: right;
 }
 
@@ -97,12 +133,18 @@ h6 {
 	text-align: center;
 }
 
-.related-products > ul {
-	display: inline-block;
-	padding:20px 60px;
+.shoe-wrapper {
+	width: 80%;
+	margin: 0 10% 0 10%;
 }
 
-.related-products > ul > li  {
+.related-products > .shoe-wrapper > ul {
+	display: inline-block;
+	padding-top: 20px;
+	width: 25%;
+}
+
+.related-products > .shoe-wrapper > ul > li  {
 	display: block;
 	padding-top: 5px;
 	padding-bottom: 0;
