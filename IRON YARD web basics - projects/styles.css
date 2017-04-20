@@ -1,14 +1,11 @@
 body {
 	margin: 0 auto;
-	display: block;
-	background-color: white;
 	font-family: Roboto, sans-serif;
 	z-index: 9999;
 }
 
 a {
 	text-decoration: none;
-	padding-left: 10px;
 	color: #fb0000;
 }
 
@@ -31,15 +28,16 @@ h6 {
 	font: Roboto, #fb0000;
 }
 
-#shoe-links, #site-links {
+.shoe-links, .site-links {
 	display: inline;
 }
 
-#shoe-links {
+.shoe-links > a {
 	font-weight: bold;
+	padding-left: 10px;
 }
 
-#site-links {
+.site-links {
 	float: right;
 	font-size: 12px;
 	padding-top: 5px;
@@ -58,7 +56,7 @@ h6 {
 	color: white;
 }
 
-#shoe-text {
+.shoe-text {
 	width: 50%;
 	float: right;
 	padding-right: 40px;
@@ -68,16 +66,16 @@ h6 {
 
 .product-description {
 	color: black;
-	padding: 40px 40px; 
+	padding: 40px 40px;
+	margin-left: 80px;
 }
 
-#description-bar > ul > li, #description-bar > ul > li.reviews-on-right {
-	display:inline;
+.description-bar > ul > li, .description-bar > ul > li.reviews-on-right {
+	display: inline;
 	border-bottom: 1px solid red;
-	vertical-align: middle;
 }
 
-#description-bar > ul > li.reviews-on-right {
+.description-bar > ul > li.reviews-on-right {
 	float: right;
 }
 
@@ -116,15 +114,15 @@ h6 {
 	font-size: 14px;
 }
 
-#shoe-links, #fine-print {
+.shoe-links, .fine-print {
 	display: inline;
 }
 
-#shoe-links {
+.shoe-links {
 	font-weight: bold;
 }
 
-#fine-print {
+.fine-print {
 	float: right;
 	font-size: 12px;
 	padding-top: 5px;

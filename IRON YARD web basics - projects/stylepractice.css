@@ -1,0 +1,27 @@
+body {
+	background-color: #c9c9c9;
+	font-family: Roboto, sans-serif;
+	color: white;
+}
+
+h1 {
+	margin-left: 200px;
+	border: solid 1px blue;
+	border-radius: 15px;
+	width: 50%;
+	margin: 0 25%;
+	text-align: center;
+}
+
+.product-container {
+	border: solid 5px white;
+	border-radius: 10px;
+	margin: 40px 200px;
+	padding-left: 30px;
+	padding-top: 30px;
+	background: linear-gradient(to right, #42ebf4, #c0c0c0);
+}
+
+.product, .price {
+	font-weight: bold;
+}
